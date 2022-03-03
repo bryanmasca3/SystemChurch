@@ -1,16 +1,13 @@
 {
-  "name": "@minimal/material-kit-react",
-  "author": "minimals.cc",
-  "licence": "MIT",
-  "version": "1.2.0",
-  "private": false,
+  "name": "iep",
+  "author": "lan",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint --ext .js,.jsx ./src",
-    "lint:fix": "eslint --fix --ext .js,.jsx ./src"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +43,7 @@
     "@mui/material": "^5.0.0",
     "@mui/utils": "^5.0.0",
     "@testing-library/jest-dom": "^5.14.1",
-    "apexcharts": "^3.28.3",
+    "apexcharts": "^3.33.1",
     "change-case": "^4.1.2",
     "date-fns": "^2.24.0",
     "faker": "^5.5.3",
@@ -70,7 +67,6 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.7",
-    "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^6.0.0",
@@ -79,7 +75,6 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.2",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.4.1"
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

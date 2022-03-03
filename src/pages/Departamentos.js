@@ -5,17 +5,16 @@ import { Container, Stack, Typography } from '@mui/material';
 // components
 import Page from '../components/Page';
 import {
-  ProductSort,
-  ProductList,
-  ProductCartWidget,
-  ProductFilterSidebar
-} from '../components/_dashboard/products';
+  DepartamentoSort,
+  DepartamentoList,
+  DepartamentoFilterSidebar
+} from '../components/_dashboard/departamento';
 //
-import PRODUCTS from '../_mocks_/products';
+import PRODUCTS from '../_mocks_/departamento';
 
 // ----------------------------------------------------------------------
 
-export default function EcommerceShop() {
+export default function Departamentos() {
   const [openFilter, setOpenFilter] = useState(false);
 
   const formik = useFormik({
@@ -50,7 +49,7 @@ export default function EcommerceShop() {
     <Page title="Dashboard: Products | Minimal-UI">
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Products
+          Departamentos
         </Typography>
 
         <Stack
@@ -61,19 +60,17 @@ export default function EcommerceShop() {
           sx={{ mb: 5 }}
         >
           <Stack direction="row" spacing={1} flexShrink={0} sx={{ my: 1 }}>
-            <ProductFilterSidebar
+            <DepartamentoFilterSidebar
               formik={formik}
               isOpenFilter={openFilter}
               onResetFilter={handleResetFilter}
               onOpenFilter={handleOpenFilter}
               onCloseFilter={handleCloseFilter}
             />
-            <ProductSort />
+            <DepartamentoSort />
           </Stack>
         </Stack>
-
-        <ProductList products={PRODUCTS} />
-        <ProductCartWidget />
+        <DepartamentoList products={PRODUCTS} />
       </Container>
     </Page>
   );
