@@ -11,6 +11,12 @@ import Servicios from './pages/Servicios';
 import Blog from './pages/Blog';
 import User from './pages/User';
 import NotFound from './pages/Page404';
+import Miembro from './pages/Miembro';
+import Aderente from './pages/Aderente';
+import Assistance from './pages/Assistance';
+import Report from './pages/Report';
+import Inventary from './pages/Inventary';
+
 
 // ----------------------------------------------------------------------
 
@@ -25,7 +31,12 @@ export default function Router() {
         { path: 'user', element: <User /> },
         { path: 'departamentos', element: <Departamentos /> },
         { path: 'servicios', element: <Servicios /> },
-        { path: 'blog', element: <Blog /> }
+        { path: 'blog', element: <Blog /> },
+        { path: 'miembro', element: <Miembro /> },
+        { path: 'aderente', element: <Aderente /> },
+        { path: 'assistance', element: <Assistance /> },
+        { path: 'inventary', element: <Inventary /> },
+        { path: 'report', element: <Report /> }
       ]
     },
     {

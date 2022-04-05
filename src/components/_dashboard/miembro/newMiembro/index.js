@@ -1,0 +1,11 @@
+export { default as Actividades } from './Actividades';
+export { default as Cargo } from './Cargo';
+export { default as Compromiso } from './Compromiso';
+export { default as Direccion } from './Direccion';
+export { default as Dones } from './Dones';
+export { default as Generales } from './Generales';
+export { default as Idiomas } from './Idiomas';
+export { default as Membresia } from './Membresia';
+export { default as Nacimiento } from './Nacimiento';
+export { default as Educacion } from './Educacion';
+export { default as Profesionales } from './Profesionales';

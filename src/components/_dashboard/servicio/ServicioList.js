@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 // material
 import { Grid } from '@mui/material';
-import ShopProductCard from './ServicioCard';
+import ServicioCard from './ServicioCard';
 
 // ----------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ export default function ServicioList({ servicios, ...other }) {
     <Grid container spacing={3} {...other}>
       {servicios.map((servicio) => (
         <Grid key={servicio.id} item xs={12} sm={6} md={3}>
-          <ShopProductCard servicios={servicio} />
+          <ServicioCard servicios={servicio} />
         </Grid>
       ))}
     </Grid>

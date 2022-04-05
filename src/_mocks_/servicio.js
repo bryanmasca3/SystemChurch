@@ -1,20 +1,21 @@
 import faker from 'faker';
 import { sample } from 'lodash';
 // utils
-import { mockImgProduct } from '../utils/mockImages';
 
+import { mockImgProduct } from '../utils/mockImages';
 // ----------------------------------------------------------------------
 
 const SERVICIO_NAME = [
   'CULTO GENERAL',
   'CULTO DE ORACION',
   'ESFUERZO CRISTIANO',
-  'LIGA FEMENINA'
+  'LIGA FEMENINA',
+  'ESCUELA DOMINICAL'
 ];
 
 // ----------------------------------------------------------------------
 
-const servicios = [...Array(4)].map((_, index) => {
+const servicios = [...Array(5)].map((_, index) => {
   const setIndex = index + 1;
 
   return {

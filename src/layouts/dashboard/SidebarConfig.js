@@ -34,13 +34,28 @@ const sidebarConfig = [
   },
   {
     title: 'miembros',
-    path: '/dashboard/blog',
+    path: '/dashboard/miembro',
     icon: getIcon(fileTextFill)
   },
   {
     title: 'aderentes',
-    path: '/dashboard/products',
+    path: '/dashboard/aderente',
     icon: getIcon(lockFill)
+  },
+  {
+    title: 'Asistencia',
+    path: '/dashboard/assistance',
+    icon: getIcon(fileTextFill)
+  },
+  {
+    title: 'Inventario',
+    path: '/dashboard/inventary',
+    icon: getIcon(fileTextFill)
+  },
+  {
+    title: 'Reportes',
+    path: '/dashboard/report',
+    icon: getIcon(fileTextFill)
   },
   {
     title: 'blog',
